@@ -13,7 +13,7 @@ export default function Hero({ onBecomeBuyerClick }) {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-headline">
-              BUY TACTORS!!
+              TODAY BRO
             </h1>
             <p className="hero-subtext">
               Exclusive access to tractors, telehandlers and diggers at dealer-only prices
