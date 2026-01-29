@@ -64,6 +64,20 @@
   color: white;
 }
 
+.jumping-letter {
+  display: inline-block;
+  animation: jump 1.5s ease-in-out infinite;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
 .hero-subtext {
   font-size: 1.125rem;
   line-height: 1.6;

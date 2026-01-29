@@ -7,13 +7,25 @@ const ArrowRight = () => (
 );
 
 export default function Hero({ onBecomeBuyerClick }) {
+  const text = "Buy agricultural & construction machinery online at dealer prices";
+
+  const animatedText = text.split('').map((char, index) => (
+    <span
+      key={index}
+      className="jumping-letter"
+      style={{ animationDelay: `${index * 0.05}s` }}
+    >
+      {char === ' ' ? '\u00A0' : char}
+    </span>
+  ));
+
   return (
     <section className="hero">
       <div className="hero-wrapper">
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-headline">
-              Buy agricultural & construction machinery online at dealer prices
+              {animatedText}
             </h1>
             <p className="hero-subtext">
               Exclusive access to tractors, telehandlers and diggers at dealer-only prices
