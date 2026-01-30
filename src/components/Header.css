@@ -95,9 +95,9 @@
 }
 
 .sell-machinery-button {
-  background-color: green;
+  background-color: red;
   color: rgb(0, 0, 0);
-  border: 1px solid green;
+  border: 1px solid red;
   padding: 13px 20px;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
@@ -110,8 +110,8 @@
 }
 
 .sell-machinery-button:hover {
-  background-color: darkgreen;
-  border-color: darkgreen;
+  background-color: darkred;
+  border-color: darkred;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
